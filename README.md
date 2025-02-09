@@ -4,3 +4,9 @@
 Here's the link! ↓
 
 https://pocopota.github.io/vs-theme-academic-pp-docs/
+
+## Dev
+```
+cd docs
+docsify serve
+```
