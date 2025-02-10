@@ -103,7 +103,7 @@ html:
 ### キーワード表示
 原稿のキーワードを記述することができます。
 
-![概要表示サンプル](../_img/abstract-keywords.png ':size=600')
+![キーワード表示サンプル](../_img/abstract-keywords.png ':size=600')
 
 以下のようにclass名が`keywords`のdiv要素内にキーワードを記述します。このとき、divタグとキーワードの間には1行間隔をあける必要があります。
 
