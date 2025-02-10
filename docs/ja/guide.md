@@ -1,10 +1,21 @@
 # テーマの使い方
 
 ## 使い始める
+Theme Academic PP を使うには通常のVivliostyleの作成手順を元にします。  
+Vivliostyle公式の[チュートリアル](https://vivliostyle.org/ja/tutorials/)を主には参考に作成してください。
+
+`Create Book`を用いて出版物の雛形を作ります。choose themeのテーマの選択部分で`vivliostyle-theme-academic-pp`を選択します。  
+するとTheme Academic PP を用いた出版物を作成することができます。以降はチュートリアルに従って原稿を作成してください。
 
 ## 機能たち
 
-Theme Academic PPには以下のような機能が備わっています。
+Theme Academic PP は @vivliostyle/theme-academic を元に作成しているので @vivliostyle/theme-academic 由来の機能と Theme Academic PP 独自の機能で構成されています。  
+基本的にはどちらの機能も使用することができます。
+
+@vivliostyle/theme-academic 由来の機能については以下の @vivliostyle/theme-academic 作者の記事を参照してください。  
+[@vivliostyle/theme-academic でレポート書いてみた！](https://vivliostyle.github.io/vivliostyle_doc/ja/vivliostyle-user-group-vol4/artifacts/content/yamasy/index.html)
+
+Theme Academic PP 独自の機能として以下のような機能があります。
 
 - 段組設定
 - 画像の並列配置
