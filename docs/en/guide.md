@@ -22,6 +22,7 @@ Unique functions of Theme Academic PP include.
 - KeyWords
 - Font Selection
 - Compact Mode
+- External Page Annotations
 
 ### Columns Layout
 You can choose between 1-column (standard) and 2-column formatting. 2-column formatting is a format in which text is divided vertically into two groups for layout.  
@@ -144,3 +145,24 @@ html:
   section-font: 'serif'
 ---
 ```
+
+### External Page Annotations
+You can configure the presence of the page counter at the bottom center of the page and the title at the upper left.
+
+To set this up, specify the following in the YAML front matter:
+
+```md
+---
+html:
+  page-counter: 'false'
+  pub-title: 'false'
+---
+```
+
+The configuration options are as follows.  
+If the value is true, the element will be displayed; if false, it will be hidden.
+
+|Configuration Item	|Key|Value|
+|---|---|---|
+|Display of Page Counter|html:page-counter|true/false|
+|Display of Title|html:pub-title|true/false|
